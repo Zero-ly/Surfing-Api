@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builders", "Builders", "{FEB7193D-28CF-4D0F-8C8E-271CC56C8C9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{75789BDF-FDA7-4000-9A3B-5304663B0357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{40A7C70E-9641-41C1-B7BD-72904632B6D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{EBEC4710-D6CC-4355-B992-98DD572A159A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C74DBE66-2622-437B-82BC-ACCAEBF456AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surf.Core", "Libraries\Surf.Core\Surf.Core.csproj", "{C4AC41FE-36E8-494C-BEBC-817258BA9237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surf.Services", "Libraries\Surf.Services\Surf.Services.csproj", "{B75FCFCF-D333-4796-A6D0-3C0540898E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surf.Api", "Presentation\Surf.Api\Surf.Api.csproj", "{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surf.Http.Framework", "Presentation\Surf.Http.Framework\Surf.Http.Framework.csproj", "{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4AC41FE-36E8-494C-BEBC-817258BA9237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AC41FE-36E8-494C-BEBC-817258BA9237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AC41FE-36E8-494C-BEBC-817258BA9237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AC41FE-36E8-494C-BEBC-817258BA9237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75FCFCF-D333-4796-A6D0-3C0540898E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75FCFCF-D333-4796-A6D0-3C0540898E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75FCFCF-D333-4796-A6D0-3C0540898E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75FCFCF-D333-4796-A6D0-3C0540898E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4AC41FE-36E8-494C-BEBC-817258BA9237} = {40A7C70E-9641-41C1-B7BD-72904632B6D9}
+		{B75FCFCF-D333-4796-A6D0-3C0540898E4C} = {40A7C70E-9641-41C1-B7BD-72904632B6D9}
+		{9AAF1EDE-BBD4-4E09-B7C3-2AB0C6B18BE6} = {75789BDF-FDA7-4000-9A3B-5304663B0357}
+		{BE3D1A93-9C50-47F5-B07E-9914E0A7AD5E} = {75789BDF-FDA7-4000-9A3B-5304663B0357}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C71ABE85-0D9F-41F8-8CCA-3995024F53AB}
+	EndGlobalSection
+EndGlobal
